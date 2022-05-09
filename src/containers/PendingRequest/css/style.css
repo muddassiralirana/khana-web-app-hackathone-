@@ -1,0 +1,27 @@
+.cat-S {
+  opacity: 0.5;
+  border-radius: 20px;
+}
+.cat-S:hover {
+  opacity: 1;
+}
+.cat-B {
+  opacity: 0.5;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.cat-B:hover {
+  opacity: 1;
+}
+.r-2{
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .r-2{
+        display: block;
+    }
+    .r-1{
+        display: none;
+    }
+}
